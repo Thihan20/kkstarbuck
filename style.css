@@ -1,0 +1,242 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.headingimg img {
+    width: 70px;
+    margin-left: 650px;
+}
+
+.headingimg h1 {
+    margin-left: 620px;
+}
+
+/* Home navi */
+
+.homenavi {
+    background-color: rgb(13, 59, 5);
+    height: 40px;
+}
+
+.homenavi ul {
+    list-style: none;
+}
+
+.homenavi a {
+    text-decoration: none;
+    color: white;
+}
+
+.homenavi li {
+    display: inline-block;
+    padding: 10px 70px;
+}
+
+.homenavi li:hover {
+    background-color: rgb(8, 129, 75);
+}
+
+.product-left,
+.product-right {
+    max-width: 50%;
+}
+
+.product-right img {
+    display: block;
+    max-width: 100%;
+    margin-left: 155px;
+}
+
+.product {
+    display: flex;
+}
+
+.product-title h1 {
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.product-description p {
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    margin-left: 100px;
+}
+
+.product-button {
+    border: 1px solid white;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.product-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.product-button:hover {
+    background-color: rgba(0, 255, 187, 0.1);
+}
+
+/* Nitro */
+
+.productnitro-right,
+.productnitro-left {
+    max-width: 50%;
+}
+
+.productnitro-left img {
+    display: block;
+    max-width: 100%;
+    margin-left: 0px;
+}
+
+.product-nitro {
+    display: flex;
+}
+
+.productnitro-title h1 {
+    margin-top: 150px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.productnitro-description p {
+    color: black;
+    font-size: 30px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.productnitro-button {
+    border: 1px solid black;
+    max-width: max-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.productnitro-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.productnitro-button:hover {
+    background-color: rgba(30, 57, 50, .1);
+}
+
+/* .container {
+    max-width: 2500px;
+} */
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    background-color: rgb(251, 251, 255);
+    padding: 30px 0px;
+
+    box-shadow: 1px 0px 9px 2px rgba(133, 130, 130, 1);
+    -webkit-box-shadow: 1px 0px 9px 2px rgba(133, 130, 130, 1);
+    -moz-box-shadow: 1px 0px 9px 2px rgba(133, 130, 130, 1);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 19%;
+    padding: 10px 0px;
+}
+
+.footer-col h4 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0px;
+    padding: 0px 40px;
+    font-weight: 500;
+}
+
+.footer-col ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer-col a {
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(128, 127, 127);
+}
+
+/* hr */
+.divied {
+    width: 97%;
+}
+
+/* Chai Tea */
+.chaiteas {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.chaiteas img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+/* Black Teas */
+
+.blackteas img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.blackteas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* Green Teas */
+
+.greenteas img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.greenteas {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.productchaitea,
+.productblackteas,
+.productgreenteas {
+    margin-top: 50px;
+}
+
+/* Herbal Teas */
+
+.herbalteas {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.herbalteas img {
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 250px;
+    margin-top: 40px;
+}

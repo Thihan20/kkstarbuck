@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.headingimg img {
+    width: 70px;
+    margin-left: 650px;
+}
+
+.headingimg h1 {
+    margin-left: 620px;
+}
+
+/* Home navi */
+
+.homenavi {
+    background-color: rgb(13, 59, 5);
+    height: 40px;
+    margin-top: 20px;
+}
+
+.homenavi ul {
+    list-style: none;
+}
+
+.homenavi a {
+    text-decoration: none;
+    color: white;
+}
+
+.homenavi li {
+    display: inline-block;
+    padding: 10px 70px;
+}
+
+.homenavi li:hover {
+    background-color: rgb(8, 129, 75);
+}
+
+/* Home image */
+.easterproduct{
+    width: 100%;
+    margin-top: 0px;
+}
+.easter{
+    display: flex;
+}
+.easterright img{
+    display: block;
+    padding: 0;
+    width: 1000px;
+    margin-left: 50%;
+}
+
